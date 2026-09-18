@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.ugc",
+  "version": "0.1.14",
+  "description": "Creator-marketing campaign tracker: briefs, a creator roster, post submissions with review, per-post metric snapshots refreshed through a curated Composio action map, and CPM/flat payout accrual against a campaign budget.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-ugc",
+  "repository": "https://github.com/amajorai/ryu-ugc",
+  "keywords": ["ugc", "creators", "campaigns", "payouts", "marketing"],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/ugc",
+      "displayName": "UGC"
+    }
+  }
+}
